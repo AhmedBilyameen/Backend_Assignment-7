@@ -4,7 +4,7 @@ const mongoose = require("mongoose")
 const Item = require("./itemModel")
 
 
-const app = express()
+const app = express() //app use express
 
 app.use(express.json()) // middleware to parse json type
 
