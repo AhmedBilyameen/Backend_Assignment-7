@@ -15,7 +15,7 @@ This is a Node.js + Express + MongoDB backend API for managing lost and found it
 ## 📦 Project Setup
 
 1. Clone the repository
-   git clone https://github.com/your-username/lost-found-backend.git
+   git clone || download as zip file
    cd lost-found-backend
 ````
 
