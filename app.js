@@ -1,3 +1,4 @@
+
 require('dotenv').config();
 const express = require("express")
 const mongoose = require("mongoose")
@@ -32,7 +33,7 @@ app.get("/", (req, res) => {
     res.json(`Welcome to CareerEx Platform!`)
 })
 
-// Add a found item
+// 1. Add a found item
 app.post("/add-item", async (req, res) => {
 
     const { itemName, description, locationFound, dateFound, claimed } = req.body;
@@ -51,7 +52,7 @@ app.post("/add-item", async (req, res) => {
     })
 })
 
-// View all unclaimed items
+//2.  View all unclaimed items
 app.get("/unclaimed-items", async (req, res) =>{
     
     const unclaimed = await Item.find({ claimed : false})
@@ -70,7 +71,7 @@ app.get("/unclaimed-items", async (req, res) =>{
 
 })
 
-// View one item by ID
+// 3. View one item by ID
 app.get("/item/:id", async (req, res) =>{
 
     const { id } = req.params
@@ -90,7 +91,7 @@ app.get("/item/:id", async (req, res) =>{
 
 })
 
-// Update an item’s details or mark as claimed
+//4.  Update an item’s details or mark as claimed
 app.patch("/item/:id", async (req, res) =>{
 
     const { id } = req.params
@@ -118,7 +119,7 @@ app.patch("/item/:id", async (req, res) =>{
     
 })
 
-// Delete old/irrelevant entries
+// 5. Delete old/irrelevant entries
 app.delete("/item/:id", async (req, res) =>{
 
     const { id } = req.params
