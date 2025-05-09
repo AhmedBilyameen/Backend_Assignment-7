@@ -30,7 +30,7 @@ mongoose.connect(MONGODB_URL)
 //API's
 
 app.get("/", (req, res) => {
-    res.json(`Welcome to CareerEx Platform!`)
+    res.json(`Welcome to Campus Lost & Found System!`)
 })
 
 // 1. Add a found item
