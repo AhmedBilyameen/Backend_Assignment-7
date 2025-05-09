@@ -41,14 +41,18 @@ POST `/add-item`
   "dateFound": "2025-05-27",
   "claimed": false
 }
-
+## SS -> https://github.com/AhmedBilyameen/Backend_Assignment-7/blob/main/screenshot/Question-1.png
 ---
 
 ### 📄 View all unclaimed items
 GET `/unclaimed-items`
 
+## SS -> https://github.com/AhmedBilyameen/Backend_Assignment-7/blob/main/screenshot/Question-2.png
+
 ### 🔍 View one item by ID
 GET `/item/:id`
+
+## SS -> https://github.com/AhmedBilyameen/Backend_Assignment-7/blob/main/screenshot/Question-3.png
 
 ### 📝 Update item or mark as claimed
 PATCH `/item/:id`
@@ -57,8 +61,12 @@ PATCH `/item/:id`
   "claimed": true
 }
 
+## SS -> https://github.com/AhmedBilyameen/Backend_Assignment-7/blob/main/screenshot/Question-4.png
+
 ### ❌ Delete an item
 DELETE `/item/:id`
+
+## SS -> https://github.com/AhmedBilyameen/Backend_Assignment-7/blob/main/screenshot/Question-5.png
 
 ## 🧠 Why This Project?
 
