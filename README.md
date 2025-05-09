@@ -11,6 +11,13 @@ This is a Node.js + Express + MongoDB backend API for managing lost and found it
 - Postman (for testing)
 
 ---
+## 📸 Screenshot
+1. https://github.com/AhmedBilyameen/Backend_Assignment-7/blob/main/screenshot/Question-1.png
+2. https://github.com/AhmedBilyameen/Backend_Assignment-7/blob/main/screenshot/Question-2.png
+3. https://github.com/AhmedBilyameen/Backend_Assignment-7/blob/main/screenshot/Question-3.png
+4. https://github.com/AhmedBilyameen/Backend_Assignment-7/blob/main/screenshot/Question-4.png
+5. https://github.com/AhmedBilyameen/Backend_Assignment-7/blob/main/screenshot/Question-5.png
+---
 
 ## 📦 Project Setup
 
@@ -41,18 +48,14 @@ POST `/add-item`
   "dateFound": "2025-05-27",
   "claimed": false
 }
-## SS -> https://github.com/AhmedBilyameen/Backend_Assignment-7/blob/main/screenshot/Question-1.png
+
 ---
 
 ### 📄 View all unclaimed items
 GET `/unclaimed-items`
 
-## SS -> https://github.com/AhmedBilyameen/Backend_Assignment-7/blob/main/screenshot/Question-2.png
-
 ### 🔍 View one item by ID
 GET `/item/:id`
-
-## SS -> https://github.com/AhmedBilyameen/Backend_Assignment-7/blob/main/screenshot/Question-3.png
 
 ### 📝 Update item or mark as claimed
 PATCH `/item/:id`
@@ -61,12 +64,9 @@ PATCH `/item/:id`
   "claimed": true
 }
 
-## SS -> https://github.com/AhmedBilyameen/Backend_Assignment-7/blob/main/screenshot/Question-4.png
-
 ### ❌ Delete an item
 DELETE `/item/:id`
 
-## SS -> https://github.com/AhmedBilyameen/Backend_Assignment-7/blob/main/screenshot/Question-5.png
 
 ## 🧠 Why This Project?
 
@@ -77,4 +77,6 @@ This project solves a real-life problem on campus — helping lost items get bac
 ## 👤 Author
 
 * Name: Bilyaminu Ahmad
-* Project: For CareerEx Backend Assignment Week-7
+* Project: For CareerEx Backend Assignment Week-  7
+
+## 📦 Project Setup
